@@ -16,7 +16,7 @@ st.set_page_config(
 @st.cache_data
 def load_data():
     return pd.read_csv(
-        r"C:\Users\muham\Downloads\project_4.1\data\superstore_clean.csv",
+        r" C:\Users\muham\Downloads\project_4.1\data\superstore_clean.csv",
         parse_dates=["order_date", "ship_date"]
     )
 
